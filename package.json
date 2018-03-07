@@ -1,0 +1,30 @@
+{
+  "name": "intranet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "author": "DCSDC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "create-react-app": "^1.5.2",
+    "express": "^4.16.2",
+    "helmet": "^3.8.0",
+    "https": "^1.0.0",
+    "jquery": "^3.3.1",
+    "ldapjs": "^1.0.2",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.17.1",
+    "openssl": "^1.1.0",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.3"
+  }
+}
