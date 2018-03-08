@@ -27,11 +27,11 @@
   to { transform: rotate(360deg); }
 }
 
-
+/* ticker */
 * { box-sizing: border-box; }
 
 :root{
-  --duration: 60s;
+  --duration: 120s;
 }
 
 @-webkit-keyframes ticker {
@@ -71,6 +71,7 @@
   padding-left: 100%;
   box-sizing: content-box;
   background-color: black;
+  font-size: 12;   
 
 }
 .ticker-wrap .ticker {
@@ -82,6 +83,7 @@
     padding-right: 100%;
     box-sizing: content-box;
     /* background-color: black; */
+    font-size: 12;   
 
     -webkit-animation-iteration-count: infinite; 
             animation-iteration-count: infinite;
@@ -100,10 +102,13 @@
   display: inline-block;
   padding: 0 2rem;
   font-size: 2rem;
-  color: white;   
+  color: white;
+  font-size: 12;   
 
 }
 
 
 body { padding-bottom: 5rem; }
 h1,h2,p {padding: 0 5%;}
+
+/* ticker ends */
